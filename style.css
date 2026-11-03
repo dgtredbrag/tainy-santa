@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{font-family:'DM Sans',sans-serif;color:#f7f1e8;background:#102b28;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 50% -10%,#315b4b 0,#173b34 40%,#0c2422 100%)}
+main{max-width:980px;margin:auto;padding:24px 22px 40px}
+header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ffffff22;padding:10px 0 20px}
+.logo{font-weight:700;letter-spacing:.04em;font-size:19px}.logo span{margin-left:8px}.snow{color:#e3c994;letter-spacing:8px}
+.hero{text-align:center;padding:68px 10px 42px}.eyebrow{font-size:11px;letter-spacing:.24em;color:#e0c48d;font-weight:700}
+h1{font:600 clamp(38px,7vw,66px)/1.08 'Playfair Display',serif;margin:18px 0;color:#fff8eb}
+h1 em{color:#e4c58e;font-style:normal}.hero p{color:#c5d3c8;font-size:16px}
+nav{display:flex;justify-content:center;gap:8px;margin:0 auto 18px;flex-wrap:wrap}button{font:600 14px 'DM Sans';border:1px solid #d6c49b55;border-radius:12px;padding:12px 17px;color:#f7f1e8;background:#ffffff0b;cursor:pointer}
+button.active,button.primary{background:#d5b77e;color:#1a3029;border-color:#d5b77e}button:disabled{opacity:.45;cursor:not-allowed}
+.panel{background:#f5f0e6;color:#203a32;border-radius:22px;padding:26px;box-shadow:0 24px 70px #06181566;min-height:260px}
+.notice{background:#e9e0cf;border:1px solid #ddcfb4;padding:13px 16px;border-radius:12px;margin-bottom:22px;color:#40584c;font-size:14px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}article{background:#fffdf8;border:1px solid #e8dfcf;border-radius:16px;padding:22px}
+h2{font:600 24px 'Playfair Display';margin:0 0 10px;color:#29483c}article p{color:#68766b;font-size:14px;line-height:1.6}
+input,textarea{display:block;width:100%;border:1px solid #d8d0c1;border-radius:10px;padding:13px 14px;margin:10px 0;background:#fffefa;color:#243b32;font:14px 'DM Sans'}
+textarea{min-height:110px;resize:vertical}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}footer{text-align:center;color:#a9bcb0;font-size:12px;padding:26px 0}
+@media(max-width:650px){main{padding:16px 14px}.hero{padding:48px 6px 30px}.two{grid-template-columns:1fr}.panel{padding:16px}.actions button{width:100%}}
